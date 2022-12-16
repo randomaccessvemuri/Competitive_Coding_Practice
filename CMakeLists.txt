@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.24)
+project(CPClion)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(CPClion main.cpp "HackerRank - Algorithms - Warmup - Diagonal Difference - Prepare - Algorithms - Warmup/Diagonal_Difference.cpp" "HackerRank - Algorithms - Implementation - Forming a Magic Square - Prepare - Algorithms - Implementation/Forming_a_Magic_Square.cpp")
+
+add_executable(Mini_Max_Sum "HackerRank - Algorithms - Warmup - Mini-Max Sum - Prepare - Algorithms - Warmup/Mini_Max_Sum.cpp" "HackerRank - Algorithms - Warmup - Mini-Max Sum - Prepare - Algorithms - Warmup/Mini_Max_Sum.cpp" "HackerRank - Algorithms - Warmup - Diagonal Difference - Prepare - Algorithms - Warmup/Diagonal_Difference.cpp")
+add_executable(Diagonal_Difference "HackerRank - Forfeit/Diagonal_Difference.cpp" "HackerRank - Algorithms - Warmup - Diagonal Difference - Prepare - Algorithms - Warmup/Diagonal_Difference.cpp" "HackerRank - Algorithms - Warmup - Diagonal Difference - Prepare - Algorithms - Warmup/Diagonal_Difference.cpp")
+add_executable(Forming_a_Magic_Square "HackerRank - Algorithms - Implementation - Forming a Magic Square - Prepare - Algorithms - Implementation/Forming_a_Magic_Square.cpp")
+add_executable(Compare_the_Triplets "HackerRank - Forfeit/Compare_the_Triplets.cpp" "HackerRank - Forfeit/Compare_the_Triplets.cpp" "HackerRank - Forfeit/Flatland_Space_Stations.cpp" "HackerRank - Forfeit/Two_Characters.cpp" "HackerRank - Forfeit/Gaming_Array.cpp" "HackerRank - Forfeit/Super_Reduced_String.cpp")
+add_executable(Flatland_Space_Stations "HackerRank - Forfeit/Flatland_Space_Stations.cpp")
+add_executable(Two_Characters "HackerRank - Forfeit/Two_Characters.cpp")
+add_executable(Gaming_Array "HackerRank - Forfeit/Gaming_Array.cpp")
+add_executable(Super_Reduced_String "HackerRank - Forfeit/Super_Reduced_String.cpp")
+add_executable(A_Young_Physicist "Codeforces - Codeforces Beta Round 63 Div 2/A_Young_Physicist.cpp" "Codeforces - Codeforces Beta Round 63 Div 2/A_Young_Physicist.cpp")
+add_executable(A_Beautiful_Matrix "Codeforces - Codeforces Round 161 Div 2/A_Beautiful_Matrix.cpp" "Codeforces - Codeforces Round 161 Div 2/A_Beautiful_Matrix.cpp")
